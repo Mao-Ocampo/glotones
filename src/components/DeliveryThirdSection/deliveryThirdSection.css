@@ -1,0 +1,43 @@
+.main-info-banner-delivery {
+  width: 90%;
+  min-width: 288px;
+  max-width: 650px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  background-image: url("../../assets/img/others/background-section-4-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.main-info-banner-delivery h3 {
+  font-size: 1.6rem;
+  text-align: center;
+  justify-content: center;
+  transform: translateY(130%);
+  color: var(--white-food);
+  text-shadow: 2px 2px 2px black;
+}
+
+.main-info-banner-delivery h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  justify-content: center;
+  transform: translateY(85%);
+  color: var(--white-food);
+  text-shadow: 2px 2px 2px black;
+}
+
+@media (min-width: 600px) {
+  .main-info-banner-delivery h3 {
+    font-size: 2.2rem;
+    transform: translateY(65%);
+  }
+  .main-info-banner-delivery h1 {
+    font-size: 3.2rem;
+    transform: translateY(55%);
+  }
+}

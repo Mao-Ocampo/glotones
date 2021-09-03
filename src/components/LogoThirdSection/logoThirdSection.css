@@ -1,0 +1,11 @@
+.main-info-glotones-logo {
+  position: absolute;
+  width: 60px;
+  height: 33px;
+  top: -17px;
+  left: calc(50% - 30px);
+  background-image: url("../../assets/img/logo/glotones-blanco.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

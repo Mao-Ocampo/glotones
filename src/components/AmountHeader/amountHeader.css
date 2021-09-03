@@ -1,0 +1,38 @@
+.header-container-saldo {
+  position: relative;
+  width: 95%;
+  height: 100px;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  padding: 8px;
+  background-color: var(--white-food);
+  border-radius: 23px;
+}
+
+.header-logo-glotones {
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  top: 15px;
+  right: calc(4%);
+  background-image: url("../../assets/img/logo/glotones.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-container-saldo p {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.header-container-saldo h1 {
+  font-size: 3rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+}
