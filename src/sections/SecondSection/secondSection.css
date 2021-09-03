@@ -71,8 +71,6 @@
   padding: 8px;
   background-color: var(--yellow-food);
   border-radius: 8px;
-  display: flex;
-  justify-content: center;
 }
 
 .historical-table-date p {
